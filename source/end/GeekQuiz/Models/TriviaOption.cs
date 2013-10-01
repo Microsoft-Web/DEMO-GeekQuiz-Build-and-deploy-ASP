@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -16,13 +15,11 @@ namespace GeekQuiz.Models
         [ForeignKey("TriviaQuestion")]
         public int QuestionId { get; set; }
 
-        [JsonIgnore]
         public virtual TriviaQuestion TriviaQuestion { get; set; }
 
         [Required]
         public string Title { get; set; }
 
-        [JsonIgnore]
         public bool IsCorrect { get; set; }
     }
 }

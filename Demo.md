@@ -159,13 +159,11 @@ This demo is composed of the following segments:
         [ForeignKey("TriviaQuestion")]
         public int QuestionId { get; set; }
 
-        [JsonIgnore]
         public virtual TriviaQuestion TriviaQuestion { get; set; }
 
         [Required]
         public string Title { get; set; }
 
-        [JsonIgnore]
         public bool IsCorrect { get; set; }
     }
 ````
