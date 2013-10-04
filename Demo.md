@@ -5,32 +5,27 @@
 <a name="Overview" />
 ## Overview ##
  
-In this demo you will:
-
-* Demonstrate the code in the existing HomeController / View.
-* Explain routing (talking point).
-* Create GeekQuiz model objects (TriviaQuestion and TriviaOption).
-* Create TriviaController using Scaffolding.
-* Demonstrate site running locally.
-* Deploy to Windows Azure Web Sites.
+In this demo you will create a new ASP.NET MVC application using the new One ASP.NET template, explain how routing works in MVC and show the default HomeController and Views. Then you will walk through the process of creating GeekQuiz object model (TriviaQuestion and TriviaOption) and leverage MVC scaffolding to create the controllers and views. Finally, you'll deploy the site to a new Windows Azure web site created from within Visual Studio using the new tooling.
 
 <a id="goals" />
 ### Goals ###
 In this demo, you will see how to:
 
-1. (TODO: Insert goal 1 here)
-1. (TODO: Insert goal 2 here)
-1. (TODO: Insert goal 3 here)
+1. Create a new MVC application using the new One ASP.NET tooling
+1. Create GeekQuiz object model
+1. Use MVC Scaffolding to create controllers and views for your model
+1. Create a new web site in Windows Azure and deploy
 
 <a name="technologies" />
 ### Key Technologies ###
 
-- {TODO: Include technology name here} [here][1]
-- {TODO: Include technology name here}
-- [{TODO: Include technology name here}][2]
+- [Microsoft Visual Studio 2013][1]
+- [ASP.NET MVC][2]
+- [Windows Azure][3]
 
-[1]: http://insert_link_to_technology_1_here/
-[2]: http://insert_link_to_technology_2_here/
+[1]: http://www.microsoft.com/visualstudio/eng/visual-studio-2013
+[2]: http://www.asp.net/mvc
+[3]: http://www.windowsazure.com
 
 <a name="Setup" />
 ### Setup and Configuration ###
@@ -329,11 +324,10 @@ This demo is composed of the following segments:
 
 By completing this demo you should have:
 
-* Demonstrated the code in the existing HomeController / View.
-* Explained routing (talking point).
-* Created GeekQuiz model objects (TriviaQuestion and TriviaOption).
-* Created TriviaController using Scaffolding.
-* Demonstrated site running locally.
-* Deployed to Windows Azure Web Sites.
+* Created a new MVC application using the new One ASP.NET template
+* Leared how MVC routing, views and controllers work
+* Created GeekQuiz object model (TriviaQuestion and TriviaOption)
+* Scaffolded the views and controllers for your model
+* Created a new web site in Windows Azure and Deployed to it from within Visual Studio
 
 ---
